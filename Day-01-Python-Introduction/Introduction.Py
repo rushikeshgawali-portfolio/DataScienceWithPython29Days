@@ -1,8 +1,8 @@
 # Day 01 - My First Python Program
 
 name = "Rushikesh"
-city = "India"
-goal = "Machine Learning Engineer"
+city = "Pune"
+goal = "Junior Data Scientist"
 
 print("Hello, World!")
 print("-------------------------")
