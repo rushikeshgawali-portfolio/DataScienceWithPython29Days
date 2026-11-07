@@ -1,0 +1,38 @@
+# 📅 Day 3: Python Operators and Expressions
+
+Welcome to Day 3! Today focuses on understanding operators in Python—the symbols used to perform computations on variables and values—and how to construct logical expressions.
+
+---
+
+## 📝 Table of Contents
+* [Arithmetic Operators](#-arithmetic-operators)
+* [Assignment Operators](#-assignment-operators)
+* [Comparison Operators](#-comparison-operators)
+* [Logical Operators](#-logical-operators)
+* [Precedence & Expressions](#-precedence--expressions)
+* [Exercises & Practice](#-exercises--practice)
+
+  ## ➕ Arithmetic Operators
+Arithmetic operators are used to perform mathematical operations.
+
+| Operator | Name | Description | Example (a = 10, b = 3) | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| + | Addition | Adds values | a + b | 13 |
+| - | Subtraction | Subtracts right from left | a - b | 7 |
+| * | Multiplication | Multiplies values | a * b | 30 |
+| / | Division | Returns float quotient | a / b | 3.333... |
+| % | Modulus | Returns division remainder | a % b | 1 |
+| ** | Exponentiation | Calculates power | a ** b | 1000 |
+| // | Floor Division | Returns integer quotient | a // b | 3 |
+
+---
+
+## 📝 Assignment Operators
+Assignment operators are used to store values in variables.
+
+```python
+x = 5       # Basic assignment
+x += 3      # Equivalent to x = x + 3 (x becomes 8)
+x -= 2      # Equivalent to x = x - 2 (x becomes 6)
+x *= 2      # Equivalent to x = x * 2 (x becomes 12)
+x /= 4      # Equivalent to x = x / 4 (x becomes 3.0)
