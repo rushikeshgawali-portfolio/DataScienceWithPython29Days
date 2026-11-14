@@ -1,4 +1,4 @@
-📌 Introduction
+## 📌 Introduction
 
 A Set is a built-in Python data structure used to store multiple unique items in a single variable.
 
@@ -8,7 +8,7 @@ Sets are:
 ✅ Mutable (can be modified)
 ✅ Do not allow duplicate values
 ✅ Useful for mathematical operations like union and intersection
-🎯 Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -18,7 +18,7 @@ Add and remove elements
 Remove duplicates from data
 Apply sets in real-world scenarios
 
-📚 What is a Set?
+## 📚 What is a Set?
 
 A set is a collection of unique items enclosed in curly braces {}.
 fruits = {"apple", "banana", "mango"}
@@ -32,7 +32,7 @@ Mixed Data Types
 mixed = {10, "Python", 3.14, True}
 Empty Set
 
-⚠️ Don't use {} because it creates a dictionary.
+## ⚠️ Don't use {} because it creates a dictionary.
 empty_set = set()
 
 print(type(empty_set))
@@ -41,14 +41,14 @@ print(type(empty_set))
 
 Sets are unordered, so indexing is not supported.
 
-❌ Invalid:
+## ❌ Invalid:
 fruits = {"apple", "banana", "mango"}
 
 print(fruits[0])
 TypeError: 'set' object is not subscriptable
 for fruit in fruits:
     print(fruit)
-➕ Adding Elements
+## ➕ Adding Elements
 add()
 
 Adds a single item.
@@ -74,7 +74,7 @@ fruits.update(["banana", "mango"])
 
 print(fruits)
 
-➖ Removing Elements
+## ➖ Removing Elements
 remove()
 
 Removes a specific item.
@@ -97,7 +97,7 @@ clear()
 Removes all items.
 fruits.clear()
 
-🚫 Duplicate Values
+## 🚫 Duplicate Values
 
 Sets automatically remove duplicates.
 numbers = {1, 2, 2, 3, 4, 4, 5}
@@ -106,7 +106,7 @@ print(numbers)
 Output
 {1, 2, 3, 4, 5}
 
-🌎 Real-World Example
+## 🌎 Real-World Example
 
 Remove duplicate email addresses.
 emails = [
