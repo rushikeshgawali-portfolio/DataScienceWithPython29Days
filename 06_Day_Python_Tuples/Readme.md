@@ -1,30 +1,29 @@
-📌 Introduction
+##📌 Introduction
 
 A Tuple is a built-in Python data structure used to store multiple items in a single variable. Tuples are ordered, immutable (cannot be changed after creation), and allow duplicate values.
 
-Tuples are useful when you want to store data that should not be modified accidentally.
+#Tuples are useful when you want to store data that should not be modified accidentally.
 
-🎯 Learning Objectives
+##🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
-Understand what tuples are
-Create tuples in Python
-Access tuple elements
-Use tuple packing and unpacking
-Apply tuple methods
-Compare tuples and lists
-Use tuples in real-world scenarios
+- Understand what tuples are
+- Create tuples in Python
+- Access tuple elements
+- Use tuple packing and unpacking
+- Apply tuple methods
+- Compare tuples and lists
+- Use tuples in real-world scenarios
 
-📚 What is a Tuple?
-
+ ##📚 What is a Tuple?
 A tuple is a collection of items enclosed in parentheses ().
 fruits = ("apple", "banana", "mango")
 
 print(fruits)
 ('apple', 'banana', 'mango')
 
-🛠 Creating Tuples
+## 🛠 Creating Tuples
 Tuple with Multiple Values
 colors = ("red", "green", "blue")
 Mixed Data Types
@@ -34,7 +33,7 @@ empty_tuple = ()
 
 Single-Item Tuple
 
-⚠️ A comma is required when creating a tuple with one item.
+##⚠️ A comma is required when creating a tuple with one item.
 fruit = ("apple",)
 
 print(type(fruit))
@@ -50,18 +49,18 @@ print(fruits[-1])
 apple
 banana
 mango
-✂️ Tuple Slicing
+##✂️ Tuple Slicing
 numbers = (10, 20, 30, 40, 50)
 
 print(numbers[1:4])
 (20, 30, 40)
 
-🔒 Tuple Immutability
+##🔒 Tuple Immutability
 
 Tuples cannot be modified after creation.
 fruits = ("apple", "banana", "mango")
 
-# This will produce an error
+ This will produce an error
 fruits[0] = "orange"
 TypeError: 'tuple' object does not support item assignment
 🎁 Tuple Packing
@@ -71,7 +70,7 @@ person = ("John", 25, "Pune")
 
 print(person)
 
-📦 Tuple Unpacking
+##📦 Tuple Unpacking
 
 Unpacking extracts tuple values into separate variables
 person = ("John", 25, "Pune")
@@ -86,7 +85,7 @@ John
 25
 Pune
 
-🔄 Iterating Through Tuples
+## 🔄 Iterating Through Tuples
 fruits = ("apple", "banana", "mango")
 
 for fruit in fruits:
@@ -109,7 +108,7 @@ Returns the position of a value.
 
 print(numbers.index(30))
 2
-⚖️ Lists vs Tuples
+## ⚖️ Lists vs Tuples
 Feature	List	TupleSyntax	[]	()
 Mutable	✅ Yes	❌ No
 Ordered	✅ Yes	✅ Yes
